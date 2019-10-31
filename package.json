@@ -1,0 +1,52 @@
+{
+  "name": "vue-ele-form-table-editor",
+  "description": "vue-ele-form 的表格内容编辑器",
+  "version": "0.1.1",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/vue-ele-form-table-editor"
+  },
+  "main": "src/index.js",
+  "homepage": "https://github.com/dream2023/vue-ele-form-table-editor/",
+  "keywords": [
+    "vue-ele-form-table-editor",
+    "tree select",
+    "element-ui tree select",
+    "element tree select",
+    "vue tree select"
+  ],
+  "dependencies": {
+    "ele-table-editor": "^0.4.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.0",
+    "@vue/cli-plugin-eslint": "^3.12.0",
+    "@vue/cli-service": "^3.12.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
+    "element-ui": "2.11.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "lint-staged": "^8.1.5",
+    "vue": "^2.6.10",
+    "vue-ele-form": "^0.6.7",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "src/*.{js,vue}": [
+      "vue-cli-service lint",
+      "git add"
+    ]
+  }
+}
