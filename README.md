@@ -8,7 +8,7 @@
 
 [vue-ele-form-table-editor](https://github.com/dream2023/vue-ele-form-table-editor) 做为 vue-ele-form 的第三方扩展, 通过对 [ele-table-editor](https://github.com/dream2023/ele-table-editor) 的封装, 做到了表格编辑的双向绑定功能
 
-![image](https://raw.githubusercontent.com/dream2023/images/master/ele-form-table-editor.uxlgna0kl1.gif)
+![image](https://cdn.nlark.com/yuque/0/2019/gif/364322/1572485324054-c288610b-b9a7-40c0-a2ee-7128cd0708af.gif)
 
 ## 安装
 
