@@ -16,7 +16,7 @@
 
 <script>
 import EleTableEditor from 'ele-table-editor'
-import formMixin from 'vue-ele-form/lib/mixins/formMixin'
+import { formMixin } from 'vue-ele-form'
 
 export default {
   name: 'EleFormTableEditor',

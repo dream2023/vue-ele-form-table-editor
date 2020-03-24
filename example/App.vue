@@ -87,6 +87,9 @@ export default {
                     // attrs 是组件的属性
                     attrs: {
                       placeholder: '学员姓名'
+                    },
+                    change (val, row, index) {
+                      console.log(val, row, index)
                     }
                     // 此外还有
                     // 具体使用参考: https://cn.vuejs.org/v2/guide/render-function.html#%E6%B7%B1%E5%85%A5%E6%95%B0%E6%8D%AE%E5%AF%B9%E8%B1%A1

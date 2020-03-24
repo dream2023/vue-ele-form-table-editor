@@ -2391,11 +2391,6 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@*:
-  version "3.0.2"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-3.0.2.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-3.0.2.tgz#6837c3fb677ad9933d1cfba42dd14d5117d6b39e"
-  integrity sha1-aDfD+2d62ZM9HPukLdFNURfWs54=
-
 commander@2.17.x:
   version "2.17.1"
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.17.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
@@ -2858,10 +2853,10 @@ date-now@^0.1.4:
   resolved "https://registry.npm.taobao.org/date-now/download/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
   integrity sha1-6vQ5/U1ISK105cx9vvIAZyueNFs=
 
-dayjs@^1.8.15:
-  version "1.8.16"
-  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.16.tgz#2a3771de537255191b947957af2fd90012e71e64"
-  integrity sha1-Kjdx3lNyVRkblHlXry/ZABLnHmQ=
+dayjs@^1.8.20:
+  version "1.8.23"
+  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.8.23.tgz?cache=0&sync_timestamp=1584360314412&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdayjs%2Fdownload%2Fdayjs-1.8.23.tgz#07b5a8e759c4d75ae07bdd0ad6977f851c01e510"
+  integrity sha1-B7Wo51nE11rge90K1pd/hRwB5RA=
 
 de-indent@^1.0.2:
   version "1.0.2"
@@ -3204,10 +3199,10 @@ ejs@^2.6.1:
   resolved "https://registry.npm.taobao.org/ejs/download/ejs-2.7.1.tgz?cache=0&sync_timestamp=1567453332151&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fejs%2Fdownload%2Fejs-2.7.1.tgz#5b5ab57f718b79d4aca9254457afecd36fa80228"
   integrity sha1-W1q1f3GLedSsqSVEV6/s02+oAig=
 
-ele-table-editor@0.4.3:
-  version "0.4.3"
-  resolved "https://registry.npm.taobao.org/ele-table-editor/download/ele-table-editor-0.4.3.tgz#3c4e0ba189baafc29320b7d6409f68eb38c6dc27"
-  integrity sha1-PE4LoYm6r8KTILfWQJ9o6zjG3Cc=
+ele-table-editor@^0.4.4:
+  version "0.4.4"
+  resolved "https://registry.npm.taobao.org/ele-table-editor/download/ele-table-editor-0.4.4.tgz#239f0fc985c81f53a3cb804637f27d142524b441"
+  integrity sha1-I58PyYXIH1Ojy4BGN/J9FCUktEE=
   dependencies:
     async-validator "^3.2.0"
 
@@ -4840,6 +4835,11 @@ is-number@^3.0.0:
   dependencies:
     kind-of "^3.0.2"
 
+is-number@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npm.taobao.org/is-number/download/is-number-7.0.0.tgz#7535345b896734d5f80c4d06c50955527a14f12b"
+  integrity sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss=
+
 is-obj@^1.0.0, is-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npm.taobao.org/is-obj/download/is-obj-1.0.1.tgz#3e4729ac1f5fde025cd7d83a896dab9f4f67db0f"
@@ -5715,13 +5715,6 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1, mkdirp@~0.5.1:
   integrity sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
   dependencies:
     minimist "0.0.8"
-
-mockjs@^1.0.1-beta3:
-  version "1.0.1-beta3"
-  resolved "https://registry.npm.taobao.org/mockjs/download/mockjs-1.0.1-beta3.tgz#d234f3c27256397564f2c955142e891909537209"
-  integrity sha1-0jTzwnJWOXVk8slVFC6JGQlTcgk=
-  dependencies:
-    commander "*"
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -8657,14 +8650,14 @@ vm-browserify@^1.0.1:
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha1-vXbWojMj4sqP+hICjcBFWcdfkBk=
 
-vue-ele-form@^0.6.7:
-  version "0.6.7"
-  resolved "https://registry.npm.taobao.org/vue-ele-form/download/vue-ele-form-0.6.7.tgz#ee1c619a1c5ab8694693e766154dd861967009b3"
-  integrity sha1-7hxhmhxauGlGk+dmFU3YYZZwCbM=
+vue-ele-form@^0.8.24:
+  version "0.8.24"
+  resolved "https://registry.npm.taobao.org/vue-ele-form/download/vue-ele-form-0.8.24.tgz#3bdcb4962a6cae068dd610b6a7c0a7886565e063"
+  integrity sha1-O9y0lipsrgaN1hC2p8CniGVl4GM=
   dependencies:
-    dayjs "^1.8.15"
+    dayjs "^1.8.20"
+    is-number "^7.0.0"
     lodash.clonedeep "^4.5.0"
-    mockjs "^1.0.1-beta3"
     throttle-debounce "^2.1.0"
 
 vue-eslint-parser@^5.0.0:
