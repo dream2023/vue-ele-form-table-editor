@@ -15,22 +15,27 @@
 </template>
 
 <script>
-import EleTableEditor from 'ele-table-editor'
-import { formMixin } from 'vue-ele-form'
+import EleTableEditor from "ele-table-editor";
+import { formMixin } from "vue-ele-form";
 
 export default {
-  name: 'EleFormTableEditor',
+  name: "EleFormTableEditor",
   mixins: [formMixin],
   components: { EleTableEditor },
   methods: {
-    validate () {
+    validate() {
       return new Promise((resolve, reject) => {
-        this.$refs['table-editor'].validate().then(resolve).catch(() => {
-          // eslint-disable-next-line prefer-promise-reject-errors
-          reject({ [this.$parent.$props.prop]: this.desc.label + '表格出错了' })
-        })
-      })
+        this.$refs["table-editor"]
+          .validate()
+          .then(resolve)
+          .catch(() => {
+            // eslint-disable-next-line prefer-promise-reject-errors
+            reject({
+              [this.$parent.$props.prop]: this.desc.label + "表格出错了"
+            });
+          });
+      });
     }
   }
-}
+};
 </script>

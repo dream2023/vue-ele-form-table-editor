@@ -1,3 +1,3 @@
-import EleFormTableEditor from './EleFormTableEditor'
+import EleFormTableEditor from "./EleFormTableEditor";
 
-export default EleFormTableEditor
+export default EleFormTableEditor;
