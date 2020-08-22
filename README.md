@@ -360,6 +360,8 @@ attrs: {
 
 > 具体请参考: [https://github.com/dream2023/ele-table-editor](https://github.com/dream2023/ele-table-editor)
 
+### columns 参数详解
+
 ```js
 columns: [
   {
@@ -368,6 +370,7 @@ columns: [
     prop: 'name', // el-table-column 的 prop 属性
     label: '姓名', // el-table-column 的 label 属性
     width: 200, // el-table-column 的 width 属性
+    vif: true, //  el-table-column 是否显示，可以为函数
     // ...
     // column 的内容, 可省略, 省略时为显示字符串
     // column 的类型可以为对象或者对象数组, 例如
@@ -387,6 +390,16 @@ columns: [
       attrs: {
         size: 'medium',
         // ...
+      },
+      // 可以为函数，根据数据判断
+      attrs(scope, tableData) {
+        return {
+          disabled: scope.$index === 1 ? true : false
+        }
+      },
+      // change 事件
+      change (val, row, index) {
+        console.log(val, row, index)
       },
       // 组件样式
       style: {

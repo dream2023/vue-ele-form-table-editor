@@ -1,7 +1,7 @@
 {
   "name": "vue-ele-form-table-editor",
   "description": "vue-ele-form 的表格内容编辑器",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -23,7 +23,7 @@
     "vue tree select"
   ],
   "dependencies": {
-    "ele-table-editor": "^0.4.5"
+    "ele-table-editor": "^0.5.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
