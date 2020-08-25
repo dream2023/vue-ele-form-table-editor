@@ -1,7 +1,7 @@
 {
   "name": "vue-ele-form-table-editor",
   "description": "vue-ele-form 的表格内容编辑器",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "license": "MIT",
   "private": false,
   "scripts": {
